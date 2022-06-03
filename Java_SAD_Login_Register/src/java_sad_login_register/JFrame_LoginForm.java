@@ -123,7 +123,7 @@ public class JFrame_LoginForm extends javax.swing.JFrame {
         jPassword.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jPassword.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
 
-        JBtn_Login.setFont(new java.awt.Font("Arial", 1, 12)); // NOI18N
+        JBtn_Login.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
         JBtn_Login.setText("Login");
         JBtn_Login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -131,7 +131,7 @@ public class JFrame_LoginForm extends javax.swing.JFrame {
             }
         });
 
-        JLabel_Register.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        JLabel_Register.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         JLabel_Register.setText("Create new account");
         JLabel_Register.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -186,7 +186,7 @@ public class JFrame_LoginForm extends javax.swing.JFrame {
                 .addComponent(JBtn_Login)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(JLabel_Register)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 310, 360));
